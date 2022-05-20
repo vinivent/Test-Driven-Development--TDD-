@@ -1,6 +1,9 @@
 export default class TestDrivenDevelopment {
 
-    static soma(a, b) {
-        return a + b
+    static sum(number1, number2) {
+        return number1 + number2;
+    }
+    static subtract(number1, number2) {
+        return number2 - number1;
     }
 }
